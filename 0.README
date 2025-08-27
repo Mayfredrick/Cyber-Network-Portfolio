@@ -1,0 +1,29 @@
+Title: Secure Network Lab
+
+Overview: This lab simulates a secure  small enterprise network with two vlans segmentation and use of firewall to block the access from laptop0 to pc2.
+
+Tools Used: Packet Tracer
+
+Steps Taken:
+
+- I designed the topology which is going to accomplish this project.In this topology  there are 3pcs, 2laptops, a switch and a router.
+
+- Step 2 was to configure the  Ip addresses with their default gateway.
+
+- Step 3 was to configure a switch for the two vlans.That is IT and GIT vlan.In this same step i configured the interfaces 0/1-5 as switchport access.I also configured int g0/1 as a trunk port .
+
+- Step 4 was to configure the sub interfaces on the router with encapsulation dot1q to allow trunking between a switch and a router.I also  configured Ip addresses for the two sub interfaces to allow the connectivity between the two separate vlans.
+
+-  Step 5  was to issue a no shut command to power on the int g0/1.
+
+- Step 6 was to ping  pc2 from laptop0 and the result was a success.
+
+- step 7 from pc 2 i configure two different firewall rules.One is to deny laptop0 from pinging pc2 with the use of 0.0.0.0 wild mask to make sure that it only restrict laptop0 from that subnet.Then I configure allow rule to allow laptop1 to be able to ping pc2 same wild mask so as to allow only laptop1 in that subnet.
+
+- Step8  was to test the firewall rules to check for their effectiveness.From laptop0  the ping was issued to pc0 and it was successful but ping to pc2 was timed out due to firewall deny rule.When issued a ping from laptop1 to pc2 was succesful.
+
+- lastly, I conluded that this project was succesful becuase i was able to stop communication from  a specific ip address on a different subnet while at the same time using a different ip on this same subnet was a success.This showcasing that the firewall rules were effective on this providing security to pc2.
+
+
+
+
