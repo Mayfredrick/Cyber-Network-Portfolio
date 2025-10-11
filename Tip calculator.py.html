@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Tip calculator.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bcbec4;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #2aacb8;}
+.s4 { color: #cf8e6d;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Tip calculator.py</font>
+</center></td></tr></table>
+<pre><span class="s0">print</span><span class="s1">(</span><span class="s2">&quot;Welcome to the tip calculator.&quot;</span><span class="s1">)</span>
+<span class="s0">bill </span><span class="s1">= </span><span class="s0">input</span><span class="s1">(</span><span class="s2">&quot;What was the total bill? $&quot;</span><span class="s1">)</span>
+<span class="s0">tip </span><span class="s1">= </span><span class="s0">input</span><span class="s1">(</span><span class="s2">&quot;What percentage tip would you like to give? 10, 12, or 15? &quot;</span><span class="s1">)</span>
+<span class="s0">number_people </span><span class="s1">= </span><span class="s0">input</span><span class="s1">(</span><span class="s2">&quot;How many people to split the bill? &quot;</span><span class="s1">)</span>
+<span class="s0">percentage_tip </span><span class="s1">= </span><span class="s0">int</span><span class="s1">(</span><span class="s0">tip</span><span class="s1">)/</span><span class="s3">100</span>
+<span class="s0">total_bill </span><span class="s1">= </span><span class="s0">float</span><span class="s1">(</span><span class="s0">bill</span><span class="s1">) + (</span><span class="s0">float</span><span class="s1">(</span><span class="s0">bill</span><span class="s1">) * </span><span class="s0">percentage_tip</span><span class="s1">)</span>
+<span class="s0">each_person </span><span class="s1">= </span><span class="s0">round</span><span class="s1">((</span><span class="s0">total_bill</span><span class="s1">/</span><span class="s0">int</span><span class="s1">(</span><span class="s0">number_people</span><span class="s1">)),</span><span class="s3">2</span><span class="s1">)</span>
+<span class="s0">print</span><span class="s1">(</span><span class="s2">f&quot;Each person should pay: </span><span class="s4">{</span><span class="s0">each_person</span><span class="s4">}</span><span class="s2">&quot;</span><span class="s1">)</span>
+</pre>
+</body>
+</html>
