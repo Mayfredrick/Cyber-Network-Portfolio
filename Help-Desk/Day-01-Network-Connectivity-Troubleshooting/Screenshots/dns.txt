@@ -1,0 +1,51 @@
+
+Name                                           Type   TTL   Section    IPAddress                                
+----                                           ----   ---   -------    ---------                                
+google.com                                     AAAA   5     Answer     2607:f8b0:4004:c06::66                   
+google.com                                     AAAA   5     Answer     2607:f8b0:4004:c06::71                   
+google.com                                     AAAA   5     Answer     2607:f8b0:4004:c06::8b                   
+google.com                                     AAAA   5     Answer     2607:f8b0:4004:c06::8a                   
+google.com                                     A      5     Answer     172.253.115.100                          
+google.com                                     A      5     Answer     172.253.115.138                          
+google.com                                     A      5     Answer     172.253.115.139                          
+google.com                                     A      5     Answer     172.253.115.113                          
+google.com                                     A      5     Answer     172.253.115.101                          
+google.com                                     A      5     Answer     172.253.115.102                          
+
+Name      : google.com
+QueryType : NS
+TTL       : 5
+Section   : Authority
+NameHost  : ns4.google.com
+
+
+Name      : google.com
+QueryType : NS
+TTL       : 5
+Section   : Authority
+NameHost  : ns2.google.com
+
+
+Name      : google.com
+QueryType : NS
+TTL       : 5
+Section   : Authority
+NameHost  : ns1.google.com
+
+
+Name      : google.com
+QueryType : NS
+TTL       : 5
+Section   : Authority
+NameHost  : ns3.google.com
+
+ns1.google.com                                 A      5     Additional 216.239.32.10                            
+ns2.google.com                                 A      5     Additional 216.239.34.10                            
+ns3.google.com                                 A      5     Additional 216.239.36.10                            
+ns4.google.com                                 A      5     Additional 216.239.38.10                            
+ns1.google.com                                 AAAA   5     Additional 2001:4860:4802:32::a                     
+ns2.google.com                                 AAAA   5     Additional 2001:4860:4802:34::a                     
+ns3.google.com                                 AAAA   5     Additional 2001:4860:4802:36::a                     
+ns4.google.com                                 AAAA   5     Additional 2001:4860:4802:38::a                     
+
+
