@@ -1,0 +1,6 @@
+
+WindowsProductName                WindowsVersion OsBuildNumber OsArchitecture
+------------------                -------------- ------------- --------------
+Windows 10 Pro N for Workstations 2009           26300         64-bit        
+
+

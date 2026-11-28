@@ -1,0 +1,18 @@
+
+Name      Status StartType
+----      ------ ---------
+wuauserv Stopped    Manual
+
+
+
+HotFixID  Description     InstalledOn           
+--------  -----------     -----------           
+KB5132057 Update          11/26/2026 12:00:00 AM
+KB5132056 Update          11/26/2026 12:00:00 AM
+KB5132688 Security Update 11/23/2026 12:00:00 AM
+KB5127694 Update          10/16/2026 12:00:00 AM
+KB5121794 Update          10/16/2026 12:00:00 AM
+KB5128942 Update          10/13/2026 12:00:00 AM
+KB5054156 Update          10/13/2026 12:00:00 AM
+
+
