@@ -1,0 +1,6 @@
+Owner                       AccessToString
+-----                       --------------
+NT SERVICE\TrustedInstaller NT AUTHORITY\Authenticated Users Allow  AppendData...
+
+(Get-Acl "C:\").Access |
+Format-List IdentityReference, FileSystemRights, AccessControlType, IsInherited, InheritanceFlags, PropagationFlags

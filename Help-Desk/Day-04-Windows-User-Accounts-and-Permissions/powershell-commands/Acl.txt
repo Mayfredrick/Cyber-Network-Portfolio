@@ -1,0 +1,16 @@
+
+
+Path   : Microsoft.PowerShell.Core\FileSystem::C:\HelpDesk-Lab
+Owner  : BUILTIN\Administrators
+Group  : WIN-11-PC1\dogos
+Access : BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         BUILTIN\Users Allow  ReadAndExecute, Synchronize
+         NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+         NT AUTHORITY\Authenticated Users Allow  -536805376
+Audit  : 
+Sddl   : O:BAG:S-1-5-21-3781320385-3429421350-1466978675-1001D:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9
+         ;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)
+
+
+

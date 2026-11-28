@@ -1,0 +1,47 @@
+
+
+IdentityReference : NT AUTHORITY\Authenticated Users
+FileSystemRights  : AppendData
+AccessControlType : Allow
+IsInherited       : False
+InheritanceFlags  : None
+PropagationFlags  : None
+
+IdentityReference : NT AUTHORITY\Authenticated Users
+FileSystemRights  : -536805376
+AccessControlType : Allow
+IsInherited       : False
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : InheritOnly
+
+IdentityReference : NT AUTHORITY\SYSTEM
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IsInherited       : False
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+IdentityReference : BUILTIN\Administrators
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IsInherited       : False
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+IdentityReference : BUILTIN\Users
+FileSystemRights  : ReadAndExecute, Synchronize
+AccessControlType : Allow
+IsInherited       : False
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+IdentityReference : S-1-15-3-65536-1888954469-739942743-1668119174-2468466756-4239452838-1296943325-355587736-700089176
+FileSystemRights  : ReadData, ExecuteFile, ReadAttributes, Synchronize
+AccessControlType : Allow
+IsInherited       : False
+InheritanceFlags  : None
+PropagationFlags  : None
+
+
+
+

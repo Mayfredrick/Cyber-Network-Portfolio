@@ -1,0 +1,10 @@
+Cannot convert value "-536805376" to type "System.Security.AccessControl.FileSystemRights" due to enumeration values
+that are not valid. Specify one of the following enumeration values and try again. The possible enumeration values are
+"ListDirectory,ReadData,WriteData,CreateFiles,CreateDirectories,AppendData,ReadExtendedAttributes,WriteExtendedAttribut
+es,Traverse,ExecuteFile,DeleteSubdirectoriesAndFiles,ReadAttributes,WriteAttributes,Write,Delete,ReadPermissions,Read,R
+eadAndExecute,Modify,ChangePermissions,TakeOwnership,Synchronize,FullControl".
+At line:1 char:1
++ [System.Security.AccessControl.FileSystemRights](-536805376) >decode. ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : UndefinedIntegerToEnum

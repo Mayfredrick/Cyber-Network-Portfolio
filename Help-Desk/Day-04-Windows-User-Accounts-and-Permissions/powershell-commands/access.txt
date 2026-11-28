@@ -1,0 +1,10 @@
+
+IdentityReference                           FileSystemRights AccessControlType IsInherited
+-----------------                           ---------------- ----------------- -----------
+BUILTIN\Administrators                           FullControl             Allow        True
+NT AUTHORITY\SYSTEM                              FullControl             Allow        True
+BUILTIN\Users                    ReadAndExecute, Synchronize             Allow        True
+NT AUTHORITY\Authenticated Users         Modify, Synchronize             Allow        True
+NT AUTHORITY\Authenticated Users                  -536805376             Allow        True
+
+
